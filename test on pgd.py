@@ -1,11 +1,4 @@
-'''
-Author: 冯明 10449281+weiyang-v@user.noreply.gitee.com
-Date: 2024-07-02 11:03:47
-LastEditors: 冯明 10449281+weiyang-v@user.noreply.gitee.com
-LastEditTime: 2024-07-05 19:05:40
-FilePath: \Pytorch-Adversarial-Training-CIFAR-master\test.py
-Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
-'''
+
 import torch
 import torch.nn as nn
 import torch.backends.cudnn as cudnn
