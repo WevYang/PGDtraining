@@ -1,4 +1,4 @@
-# PyTorch Adversarial Training on CIFAR
+# PyTorch Adversarial Training on CIFAR 10
 
 This repository contains a collection of scripts for training neural networks on the CIFAR dataset with various training techniques and adversarial robustness methods.
 
