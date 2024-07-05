@@ -1,12 +1,3 @@
-<!--
- * @Author: 冯明 10449281+weiyang-v@user.noreply.gitee.com
- * @Date: 2024-07-05 21:06:47
- * @LastEditors: 冯明 10449281+weiyang-v@user.noreply.gitee.com
- * @LastEditTime: 2024-07-05 21:17:14
- * @FilePath: \湘潭大学冯明\README.md
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
--->
-
 # PyTorch Adversarial Training on CIFAR
 
 This repository contains a collection of scripts for training neural networks on the CIFAR dataset with various training techniques and adversarial robustness methods.
@@ -30,7 +21,11 @@ This repository contains a collection of scripts for training neural networks on
 ## Installation
 
 Python 3.9.12及以上版本
+# 1. Clone the repository
+git clone https://github.com/WevYang/PGDtraining.git
 
+# 2. Change to the repository directory
+cd PGDtraining
 ## Usage
 
 Run the desired training or testing script using Python. For example, to run the basic training script:
@@ -44,9 +39,6 @@ python pgd_adversarial_training.py
 
 Implements the Cutout data augmentation technique, which randomly masks out square regions of the input during training.
 
-### interpolated_adversarial_training.py
-
-Involves adversarial training, possibly using interpolated adversarial examples to enhance robustness.
 
 ### lr.py
 
